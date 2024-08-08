@@ -576,9 +576,11 @@ color:black;
 }
 .about-right{
   /* position: relative; */
+  /* width:60%; */
   max-width:500px;
   padding:1rem;
   padding-left: 2rem;
+  text-align:left;
 }
 .about-right p{
   color:rgb(156, 154, 154);
@@ -631,7 +633,7 @@ color:black;
   .about-right{
     max-width:100%;
     padding:1rem 0rem;
-    text-align: justify;
+    /* text-align: justify; */
   }
   .about-section h1{
     text-align: center;
@@ -655,6 +657,7 @@ color:black;
   }
   .emailtitle{
     font-size: .7rem;
+    /* width:150px; */
   }
 }
 @media(max-width:350px){
@@ -814,7 +817,7 @@ color:black;
   background-repeat: no-repeat;
 }
 .project3{
-  background-image:url(./image/tic\ tac.png);
+  background-image:url(./image/tejas-foods.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -877,7 +880,7 @@ opacity: 1;
   flex-direction: column;
   z-index:2;
   color:white;
-  padding:2em;
+  /* padding:2em; */
   bottom: 20%;
   gap:1em;
   transition: all .4s;
@@ -889,7 +892,7 @@ opacity: 1;
   left:10%;
 }
 .projectskills{
-  width:60%;
+  width:70%;
   display: flex;
   gap:10px;
   flex-wrap: wrap;
@@ -937,7 +940,6 @@ opacity: 1;
 @media (max-width:800px){
   .projectheading h1{
     text-align: center;
-  
     font-size:2rem;
     padding-bottom: 1rem;
   }
@@ -946,21 +948,23 @@ opacity: 1;
     justify-content: center;
     align-items: center;
       padding:5px;
-      margin:10px;
+      margin:0px 0px;
       gap:60px;
   }
   .project-card{
     
       width:80%;
-      height:280px;
+      height:300px;
+      
       
   }
   .project-card{
-      background-size: cover;
+      background-size:cover;
       background-position: center;
   }
   .project-content{
-    scale:.5;
+    /* width:300px; */
+    scale:.4;
     bottom:0;
     left:0;
     right:0;
@@ -990,10 +994,10 @@ opacity: 1;
       width:35px;
    }
    .projectnumber{
-    font-size: 55px;
+    font-size:55px;
    }
    .project-card:hover .project-content{
-      scale: 0.55;
+      scale:.4;
    }
   
 }
@@ -1654,7 +1658,7 @@ opacity: 1;
 @media(max-width:800px){
   
   .link-wrapper{
-    width:80%;
+    width:100%;
     font-size:12px;
     gap:6px;
   }
